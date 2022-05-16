@@ -72,3 +72,8 @@ console.log(player)
     }
 
 animate();
+
+window.addEventListener('keydown', (event) => {
+console.log(event);
+
+})
